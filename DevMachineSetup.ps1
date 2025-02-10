@@ -1,4 +1,7 @@
-﻿# Visual Studio 
+﻿# Install Chocolatey
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+# Visual Studio 
 $config = 'C:\VS-Config\Professional2022.vsconfig'
 New-Item $config  -ItemType File -Force -ErrorAction SilentlyContinue
 Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/stevefutcher/animated-octo-adventure/refs/heads/main/Professional2022.vsconfig' -OutFile $config
