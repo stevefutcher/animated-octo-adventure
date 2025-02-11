@@ -1,10 +1,3 @@
-# animated-octo-adventure
-choc dev
+# Sweet Like Chocolatey Talk
 
-To invoke the dev setup script we're going to borrow the chocolatey script invocation
-
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/stevefutcher/animated-octo-adventure/refs/heads/main/DevMachineSetup.ps1'))
-```
-
-
+Resources supporting the Sweet Like Chocolatey talk
